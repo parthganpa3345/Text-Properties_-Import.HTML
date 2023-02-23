@@ -1,0 +1,50 @@
+h1
+{
+    color: lightcoral;
+    background: lightblue;
+    width: 150px;
+}
+
+h2
+{
+    /* text-shadow: x y blur color; */
+    text-shadow: -5px -5px 8px red, 7px 7px 7px lightgreen, 9px 9px 7px blue;
+    font-size: 200px;
+
+}
+
+h3
+{
+    text-shadow: 10px 10px 8px lightcoral, 5px 5px 5px purple;
+    font-size: 200px;
+}
+
+.b
+{
+    /* font-weight: bold; */
+    font-size: 50px;
+    /* font-weight: bolder; */
+    font-weight: 900;
+}
+
+.i
+{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.u
+{
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+#para
+{
+    text-indent: 200px;
+    text-transform: uppercase;
+}
